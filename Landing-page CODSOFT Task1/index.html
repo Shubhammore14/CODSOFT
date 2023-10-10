@@ -1,0 +1,162 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hp product Landing page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <div class="circle"></div>
+        <header>
+            <a href="#"><img src="logo3.png" class="logo"></a>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Menu</a></li>
+                <li><a href="">What's new</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a href="">More</a></li>
+                <li><a href="">Search</a></li>
+            </ul>
+        </header>
+        <div class="content">
+            <div class="textBox">
+                <h2>Make the Most of Your Day with HP <br>It's <span>hp</span></h2>
+                <p>Make it Matter.
+                    Go Beyond.
+                    Keep Reinventing.
+                    The HP Way Now.
+                    The computer is personal again.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div class="imgBox">
+                <img src="img1 (2).png" class="hp">
+            </div>
+        </div>
+        <ul class="thumb">
+            <li><a href="#"><img src="thumb1 (2).png" onclick="imgSlider('img1(2)png'); changeCircleColor('#eb7495') " ></a></li>
+            <li><a href="#"><img src="thumb3 (2).png" onclick="imgSlider('nimg3(2)pg'); changeCircleColor('#017143') " ></a></li>
+            <li><a href="#"><img src="thumb2 (2).png" onclick="imgSlider('img2(2)png'); changeCircleColor('#d752b1') " ></a></li>
+        </ul>
+        <ul class="sci">
+            <li><a href="#"><img src="facebook.png"></a></li>
+            <li><a href="#"><img src="twitter.png"></a></li>
+            <li><a href="#"><img src="instagram.png"></a></li>
+        </ul>
+    </section>
+    <!-- next page for menu -->
+    <div class="menu">
+    <div class="heading">
+     <h1> hp</h1>
+     <h3> &mdash;product &mdash;</h3>
+    </div>
+     <div class="food-item">
+        <img src="shu1.jpg" >
+        <div class="details">
+            <div class="details sub">
+            <h4>HP Pavilion </h4>
+            <h4 class="price">₹-38999</h4>
+            </div>
+            <p>HP Pavilion 14, AMD Ryzen 5-5625U 8GB RAM/512GB SSD 14inches/35.6 cm FHD, IPS Micro-Edge Display/Radeon Graphics/Alexa/B&O Audio/Fast Charge/Win11 Home/MS Office 2021, 14-Ec1003au Windows 11 Home</p>
+            <button>Buy now></button>
+        </div>
+    </div>
+    <div class="food-item">
+        <img src="hedset1.jpg" >
+        <div class="details">
+            <div class="details sub">
+            <h4>hedset</h4>
+            <h4 class="price">₹-2699</h4>
+            </div>
+            <p>HP Bluetooth Headset 500 Compatible with Tablets, smartphones, PCs, and other devices with Bluetooth (Black)</p>
+            <button>Buy now</button>
+        </div>
+    </div>
+    <div class="food-item">
+        <img src="mouse.jpg" >
+        <div class="details">
+            <div class="details sub">
+            <h4>HP mouse</h4>
+            <h4 class="price">₹-599</h4>
+            </div>
+            <p>Model Name/Number	
+                RFGRGRFGF
+                Color	
+                Black
+                Usage/Application	
+                WINDOWS
+                Weight	
+                100 GRAM
+                Material	
+                Plastic, Iron</p>
+            <button>Buy now</button>
+        </div>
+    </div>
+    <div class="food-item">
+        <img src="keyword1.jpg" >
+        <div class="details">
+            <div class="details sub">
+            <h4>keyword</h4>
+            <h4 class="price">₹-799</h4>
+            </div>
+            <p>HP K160 Wireless Keyboard/Quick Comfy accurate/12 Fn Shortcut Keys/Plug and Play USB/ 3 Years Warranty, Black</p>
+                <button>Buy now</button>
+        </div>
+    </div>
+    <div class="food-item">
+        <img src="hp printer.jpeg" >
+        <div class="details">
+            <div class="details sub">
+            <h4>HP LaserJet Pro MFP M128fn Printer
+            </h4>
+            <h4 class="price">₹-25999</h4>
+            </div>
+            <p>A4 Black and White Laser Printer, Perfect for Home
+                Print, copy, scan & fax
+                Print speed up to 21 ppm (black)
+                USB, Apple AirPrint™, Ethernet, HP ePrint</p>
+                <button>Buy now</button>
+         </div>
+     </div>
+ <div class="food-item">
+    <img src="hpzbook.jpeg" >
+    <div class="details">
+        <div class="details sub">
+        <h4>hp ZBook</h4>
+        <h4 class="price">₹-310,999</h4>
+        </div>
+        <p>HP ZBook Studio 40.6 cm (16) G9 Mobile Workstation PC - Data Science12th Generation Intel® Core™ i9 processor
+            Windows 11 Home
+            40.6 cm (16) diagonal, WUXGA display with NVIDIA®️ GeForce RTX™️ 3080
+            32 GB DDR5-4800 RAM
+            1 TB SSD Hard drive</p>
+            <button>Buy now</button>
+     </div>
+ </div>
+ <!-- next page for menu -->
+ <div class="food-item">
+    <img src="pendrive1.jpeg" >
+    <div class="details">
+        <div class="details sub">
+        <h4>HP USB 3.2 Light Golden Flash Drive 256GB x779W, Metal Silver</h4>
+        <h4 class="price">₹-1999</h4>
+        </div>
+        <p>HP USB 3.2 Light Golden Flash Drive 256GB x779W, Metal Silver</p>
+            <button>Buy now</button>
+     </div>
+ </div>
+
+  </div>
+     <script type="text/javascript">
+        function imgSlider(anything){
+            document.querySelector('.starbucks').src = anything;
+        }
+        function changeCircleColor(color){
+            const circle = document.querySelector('.circle');
+            circle.style.background = color;
+        }
+
+    </script>
+  </body>
+</html>
